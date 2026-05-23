@@ -7,7 +7,7 @@ function proseslogin() {
     
     if (inputUser === adminUser && inputPass === adminPass) {
         alert("login berhasil! mengalihkan ke dashboard....") ;
-        window.location.href = "dashboard.html";
+        window.location.href = "crud/index.html";
     
     } else {
         alert("username tau pasword salah. silahkn coba lagi");
